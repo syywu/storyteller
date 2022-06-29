@@ -16,15 +16,15 @@ console.log(
   )
 );
 console.log(
-  chalk.green("One day, he told a joke, which made everyone laugh out loud.")
+  chalk.bgGreen("One day, he told a joke, which made everyone laugh out loud.")
 );
 console.log(
-  chalk.red(
+  chalk.bgRed(
     "He told them the same joke after a few minutes, and only a few of them smiled."
   )
 );
 console.log(
-  chalk.blue("The third time he told the same joke, no one laughed.")
+  chalk.bgBlue("The third time he told the same joke, no one laughed.")
 );
 console.log(
   chalk.rgb(
