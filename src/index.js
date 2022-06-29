@@ -51,5 +51,5 @@ async function story() {
     )("So why are you always crying about the same problem?”")
   );
   await sleep(2000);
-  process.exit(1);
+  process.exit(0);
 }
