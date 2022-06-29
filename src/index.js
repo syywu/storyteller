@@ -1,7 +1,11 @@
 import chalk from "chalk";
 
-console.log(chalk.cyan.underline("The Wise Man"));
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
+console.log(chalk.cyan.underline("The Wise Man"));
+sleep(1000);
 console.log(
   chalk.yellow("A wise man used to give advice to anyone who approached him.")
 );
