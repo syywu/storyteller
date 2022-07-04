@@ -20,34 +20,34 @@ async function story() {
   );
   await sleep(2000);
   console.log(
-    chalk.bgGreen(
+    chalk.bgGreen.black(
       "One day, he told a joke, which made everyone laugh out loud."
     )
   );
   await sleep(2000);
   console.log(
-    chalk.bgRed(
+    chalk.bgRed.black(
       "He told them the same joke after a few minutes, and only a few of them smiled."
     )
   );
   await sleep(2000);
   console.log(
-    chalk.bgBlue("The third time he told the same joke, no one laughed.")
+    chalk.bgBlue.black("The third time he told the same joke, no one laughed.")
   );
   await sleep(2000);
   console.log(
     chalk.rgb(
       100,
-      50,
-      67
+      200,
+      50
     )("He smiled and said, “You can’t laugh at the same joke over and over.")
   );
   await sleep(2000);
   console.log(
     chalk.rgb(
-      50,
-      150,
-      80
+      255,
+      20,
+      20
     )("So why are you always crying about the same problem?”")
   );
   await sleep(2000);
