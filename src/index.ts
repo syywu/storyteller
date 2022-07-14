@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-async function sleep(ms) {
+async function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
