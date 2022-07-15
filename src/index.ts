@@ -6,7 +6,7 @@ async function sleep(ms: number) {
 
 await story();
 
-async function story() {
+async function story(): Promise<void> {
   console.log(chalk.cyan.underline("The Wise Man"));
   await sleep(2000);
   console.log(
